@@ -6,8 +6,22 @@ $(document).ready(function() {
 
     // click sul menu dropper > show/hide menu
     dropper.click(function() {
-        $(this).next('.dropdown-menu').toggle();
+
+        // reference sul menu droppato attivo
+        var activeDrop = $(this).next('.dropdown-menu');
+
+        // nascondo tutti i menu droppati NON attivi
+        dropMenu.not(activeDrop).hide();
+        
+        // toggle sul menu droppato attivo
+        activeDrop.toggle();
+        
+        
+        
+
     });
+
+    // click su sfondo -> hide menu
 
 }); // fine doc ready
 
