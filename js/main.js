@@ -1,15 +1,15 @@
-$(document).ready(function(){
+// $(document).ready(function() {
+
 
     // reference
-    var dropper = $('.droppper-menu > a');
-    var dropMenu = $('.droppper-menu .dropdown-menu');
+    var dropper = $('.dropper-menu > a');
+    var dropMenu = $('.dropper-menu > .dropdown-menu');
 
     // click sul menu dropper > show/hide menu
-    dropper.click(function(){
-        dropmenu();
-    })
-    
-})
+    dropper.click(function() {
+        $(this).next('.dropdown-menu').toggle(300);
+    });
+
+// }); // fine doc ready
 
 
-// funzioni
