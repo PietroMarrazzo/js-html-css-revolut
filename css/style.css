@@ -3,3 +3,10 @@
     margin: 0;
     box-sizing: border-box;
  }
+
+ /* debug */
+.navbar-main {
+    height: 100px;
+    width: 100%;
+    background-color: lightgray;
+}
