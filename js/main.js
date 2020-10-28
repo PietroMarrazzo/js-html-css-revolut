@@ -1,5 +1,4 @@
-// $(document).ready(function() {
-
+$(document).ready(function() {
 
     // reference
     var dropper = $('.dropper-menu > a');
@@ -7,9 +6,9 @@
 
     // click sul menu dropper > show/hide menu
     dropper.click(function() {
-        $(this).next('.dropdown-menu').toggle(300);
+        $(this).next('.dropdown-menu').toggle();
     });
 
-// }); // fine doc ready
+}); // fine doc ready
 
 
