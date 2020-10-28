@@ -68,6 +68,19 @@ header .container {
     opacity: 0.6;
 }
 
+.navbar-main .list-link-sx li:nth-child(2) a {
+    opacity: 1;
+}
+
+
+/* btn navbar */
+.navbar-main .list-link-dx .btn {
+    background-color: rgb(202, 8, 112);
+    opacity: 1;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 100px;
+}
 
 /* dropdown menu */
 .navbar-main .dropper-menu {

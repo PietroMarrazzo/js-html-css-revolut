@@ -21,7 +21,6 @@ $(document).ready(function() {
 
     });
 
-    // click su sfondo -> hide menu
 
 }); // fine doc ready
 
