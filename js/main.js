@@ -7,7 +7,6 @@ $(document).ready(function() {
     // click sul menu dropper > show/hide menu
     dropper.click(function() {
 
-
         // reference sul menu droppato attivo
         var activeDrop = $(this).next('.dropdown-menu');
 
