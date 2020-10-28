@@ -63,8 +63,28 @@ header .container {
     opacity: 0.6;
 }
 
-.navbar-main .list-link-dx .dropdown-menu li {
-    display: block;
-    padding-left: 15px;
+
+/* dropdown menu */
+.navbar-main .dropper-menu {
+    position: relative;
 }
 
+.navbar-main .dropper-menu .dropdown-menu {
+    position: absolute;
+    top: 130%;
+    left: -15%;
+    width: 200px;
+}
+
+.navbar-main .list-link-dx .dropdown-menu li {
+    display: block;
+    margin: 0 30px;
+    padding: 15px 0px;
+    width: 100px;
+}
+
+.shadow {
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.12); 
+    box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.12);
+}
