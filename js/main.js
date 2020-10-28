@@ -7,17 +7,17 @@ $(document).ready(function() {
     // click sul menu dropper > show/hide menu
     dropper.click(function() {
 
+
         // reference sul menu droppato attivo
         var activeDrop = $(this).next('.dropdown-menu');
 
         // nascondo tutti i menu droppati NON attivi
         dropMenu.not(activeDrop).hide();
+
         
         // toggle sul menu droppato attivo
-        activeDrop.toggle();
-        
-        
-        
+        activeDrop.toggle()
+             
 
     });
 

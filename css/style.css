@@ -111,3 +111,14 @@ header .container {
     top: 8px;
     font-size: 12px;
 }
+
+
+
+/* hover */
+.navbar-main li a:hover{
+    opacity: 1;
+}
+
+.navbar-main li a:focus {
+    opacity: 1;
+}
